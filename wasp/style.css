@@ -1,0 +1,104 @@
+/* COLOR PALETTE: 
+    OFF WHITE: #F8F9F3
+    DARK BLUE: #131329
+    GOLD: #A79968
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Baskerville Old Face", serif;
+    background-color: #131329; /* Dark-blue background */
+}
+
+/* HEADER: 
+    INCLUDES LOGO - MENU BAR - DESCRIPTION TEXT
+*/
+#header {
+    text-align: center;
+    background-color: #F8F9F3;
+    padding: 10px 0;
+}
+
+#header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#header a {
+    text-decoration: none;
+    color: #131329;
+}
+
+#header a:hover {
+    color: #A79968; /* Gold text color on hover */
+}
+
+#logo {
+    text-align: center;
+    padding: 20px 0;
+}
+#logo img {
+    max-width: 50px; /* Adjust the size as needed */
+    height: auto;
+    background-color:#A79968;
+    border-radius: 70%;
+}
+
+.description {
+    text-align: center;
+    color: #F8F9F3; /* Off-white text color */
+    font-size: 20px;
+    margin: 40px;
+    margin-bottom: 0;
+}
+
+.gold {
+    color: #A79968; /* Gold text color */
+}
+
+/* CONTENT :
+    INCLUDES EDITORIAL COVER - TEXT - COLLECTION IMAGES
+*/
+
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+#content img {
+    max-width: 50%;
+    height: auto;
+}
+
+.text {
+    width: 45%;
+    color: #F8F9F3; /* Off-white text color */
+    font-size: 64px; /* Adjust the font size as needed */
+    text-align: left; /* Center the text horizontally */
+    display: flex;
+    align-items: center; /* Center the text vertically */
+}
+
+#footer {
+    text-align: center;
+    padding: 10px 0;
+    color: #F8F9F3; /* Dark-blue text color */
+    font-size: 14px;
+}
+
+#title {
+    text-align: center;
+    color: #F8F9F3; /* Off-white text color */
+    font-size: 64px;
+    margin: 40px;
+    margin-bottom: 0;
+}
